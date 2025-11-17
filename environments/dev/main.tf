@@ -34,5 +34,5 @@ module "key_vault" {
   depends_on = [ module.rg-module ]
   source = "../../modules/azurerm_key_vault"
   key_vaults = var.key_vaults
-  
 }
+
